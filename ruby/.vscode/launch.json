@@ -10,6 +10,13 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "program": "${file}"
+        },
+        {
+            "name": "Debug Local File",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${file}"
        }
     ]
 }
