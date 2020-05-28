@@ -1,0 +1,184 @@
+html{
+    font-size: 10px;
+    height: 100%;}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6em;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;}
+#title{
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    float: right;
+    color: black;
+    margin: 10px;
+    border-radius: 25px;
+    
+}
+img{
+    max-height: 350px;
+    border-radius: 25px;
+}
+.container {
+    padding: 2px 16px;
+  }
+  p{
+      text-align: justify;
+      margin-right: 10px;
+  }
+  .tab { 
+text-indent: 15px;
+margin-left: 10px;}
+h3{
+    margin-left: 20px;
+}
+iframe{
+        border-radius: 25px;
+        margin-left: 10px;}
+.navbar {
+overflow: hidden;
+background-color: #333;
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;}
+.footer p{
+    text-align: center;
+}
+        /* Silver back properties */
+#Silver-back-info{
+    background-color: #D3DBD9;}
+#Silver-back-info div.card {
+    background-color: #528D7F;}
+/* Whale properties */
+#Whales-info{
+    background-color: #008383;
+    color:white;}
+#Whales-info div.card {
+    background-color: #0E2929;
+    color: white;}
+#media{border-radius:25px;
+    height:300px;
+    max-width:30%; 
+    background: url("https://icelandmag.is/sites/default/files/styles/lightbox/public/thumbnails/image/humpback_whit_welles.jpg?itok=FK1cVJFX");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+#media:hover{
+animation-name: jumping;
+animation-duration: 3s;
+animation-iteration-count: infinite;}
+@keyframes jumping{
+	0% {max-height:100%;
+    	max-width:30%;
+    	background-image: url("https://www.nationalgeographic.com/content/dam/news/2016/09/08/humpback-whales/01humpbackwhales.ngsversion.1473420603711.adapt.1900.1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{max-height:100%;
+    	max-width:30%; 
+    	background: url("https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/4/14/1302767231530/Breaching-Humpback-Whale-004.jpg");
+    	background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    					
+    }
+    50%{max-height:100%;
+    	max-width:30%; 
+    	background: url("https://st2.depositphotos.com/4507459/6732/i/450/depositphotos_67324999-stock-photo-humpback-whale-jumping-out-of.jpg");
+    	background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100% {max-height:100%;
+    	max-width:30%;
+    	background: url("https://icelandmag.is/sites/default/files/styles/lightbox/public/thumbnails/image/humpback_whit_welles.jpg?itok=FK1cVJFX");
+    	background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+}
+
+/* Home page styling */
+#home-page{
+    background-color: #DD5FA6;
+    color:black;}
+#home-page .card{
+    display:inline-block;
+    background-color: #301D28;
+    margin-right: 17%;
+    font-size: 20px;
+    color: white;}
+
+ .card p{
+    text-align: center;}
+#continue{
+    text-align: center;
+    font-size: 30px;}
